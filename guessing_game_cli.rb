@@ -13,7 +13,7 @@ def run_guessing_game
   input = input.to_i 
   if(input == picked_number)
     puts "You guessed the correct number!"
-  else
+  elsif (input.class == Number)
     puts "Sorry! The computer guessed #{picked_number}."
   end
 end
