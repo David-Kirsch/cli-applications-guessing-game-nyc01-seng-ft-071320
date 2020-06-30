@@ -6,7 +6,7 @@ def run_guessing_game
   input = gets.chomp
   
   if(input == picked_number)
-    puts "You guessed correctly! You win"
+    puts "You guessed the correct number!"
   else 
     puts "Nope"
   end
