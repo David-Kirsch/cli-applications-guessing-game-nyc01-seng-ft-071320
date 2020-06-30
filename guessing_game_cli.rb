@@ -6,6 +6,7 @@ def run_guessing_game
   puts "Guess my number. It is a number between 1 and 6"
   input = gets.chomp
   input = input.to_i 
+  binding.pry
   if(input == 'exit')
     puts "Goodbye!"
   end
